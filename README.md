@@ -195,6 +195,7 @@ Deploy the Item Catalog project.
 		http://52.25.194.149
 		
 ## References:
+	https://lightsail.aws.amazon.com/ls/docs/how-to/article/lightsail-how-to-set-up-putty-to-connect-using-ssh
 	https://devops.profitbricks.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
 	https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps	
 	http://songhuiming.github.io/pages/2016/10/30/set-up-flask-web-host-on-digitalocean-vps/
