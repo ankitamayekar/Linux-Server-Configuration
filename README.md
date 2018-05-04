@@ -1,5 +1,5 @@
 # Linux Server Configuration
-###Get your server.
+### Get your server.
 ## 1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page.
 	click create an instance
 		select platform - linux/Unix
@@ -15,7 +15,7 @@
 		Finish configuring PuTTY with your private key and instance information
 			Log in using the default user name for your Lightsail instance
 
-###Secure your server.
+### Secure your server.
 ## 3. Update all currently installed packages.
 	sudo apt-get update
 	sudo apt-get upgrade
@@ -68,7 +68,7 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 	
 	ssh -i [private keyname] grader@34.216.153.142
 	
-###Prepare to deploy your project.
+### Prepare to deploy your project.
 ## 9. Configure the local timezone to UTC.
 
 	sudo dpkg-reconfigure tzdata
@@ -112,7 +112,7 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 ## 12. Install git.
 	sudo apt-get install git
 
-###Deploy the Item Catalog project.
+### Deploy the Item Catalog project.
 ## 13. Clone and setup your Item Catalog project from the Github repository you created earlier in this Nanodegree program.
 	go to dir /var/www
 		cd /var/www
