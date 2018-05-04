@@ -1,5 +1,5 @@
 # Linux Server Configuration
-### Get your server.
+### To get your server.
 ## 1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page.
 	click create an instance
 		select platform - linux/Unix
