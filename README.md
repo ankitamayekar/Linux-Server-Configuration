@@ -1,6 +1,5 @@
-# Linux-Server-Configuration
-
-Get your server.
+# Linux Server Configuration
+###Get your server.
 ## 1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page.
 	click create an instance
 		select platform - linux/Unix
@@ -10,8 +9,13 @@ Get your server.
 		click Create
 		
 ## 2. Follow the instructions provided to SSH into your server.
+		Download and install PuTTY
+		Download default private key and save the lightsailDefaultKey.pem key somewhere you can easily find it
+		Configure PuTTYgen with your Lightsail private key
+		Finish configuring PuTTY with your private key and instance information
+			Log in using the default user name for your Lightsail instance
 
-Secure your server.
+###Secure your server.
 ## 3. Update all currently installed packages.
 	sudo apt-get update
 	sudo apt-get upgrade
@@ -21,7 +25,7 @@ Secure your server.
 		change the port from 22 to 2200
 	sudo service ssh restart
 	
-	4.1. Here after use Putty to connect with following configuration:
+	Here after use Putty to connect with following configuration:
 	IP: IP of your server
 	PORT: 2200
 	Connection>SSH>Auth : .ppk file i.e. private key file.
@@ -64,7 +68,7 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 	
 	ssh -i [private keyname] grader@34.216.153.142
 	
-Prepare to deploy your project.
+###Prepare to deploy your project.
 ## 9. Configure the local timezone to UTC.
 
 	sudo dpkg-reconfigure tzdata
@@ -108,7 +112,7 @@ Prepare to deploy your project.
 ## 12. Install git.
 	sudo apt-get install git
 
-Deploy the Item Catalog project.
+###Deploy the Item Catalog project.
 ## 13. Clone and setup your Item Catalog project from the Github repository you created earlier in this Nanodegree program.
 	go to dir /var/www
 		cd /var/www
@@ -196,8 +200,10 @@ Deploy the Item Catalog project.
 		
 ## References:
 	https://lightsail.aws.amazon.com/ls/docs/how-to/article/lightsail-how-to-set-up-putty-to-connect-using-ssh
+	
 	https://devops.profitbricks.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
-	https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps	
+	https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+	
 	http://songhuiming.github.io/pages/2016/10/30/set-up-flask-web-host-on-digitalocean-vps/
 	
 
