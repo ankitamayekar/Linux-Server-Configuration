@@ -199,11 +199,10 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 		
 ## References:
 	https://lightsail.aws.amazon.com/ls/docs/how-to/article/lightsail-how-to-set-up-putty-to-connect-using-ssh
-	
 	https://devops.profitbricks.com/tutorials/deploy-a-flask-application-on-ubuntu-1404/
 	https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-	
 	http://songhuiming.github.io/pages/2016/10/30/set-up-flask-web-host-on-digitalocean-vps/
+	https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-configuration-on-a-linux-vps
 	
 
 	
